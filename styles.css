@@ -3,6 +3,7 @@ body {
 }
 
 .fwh-slide {
+  display: block;
   height: 100vh;
   color: #fff;
   background: #2f3068;
