@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.fwh-slide {
+  height: 100vh;
+  color: #fff;
+  background: #2f3068;
+  box-sizing: border-box;
+}
+
+.logo-image {
+  height: 400px;
+}
+
+.box {
+  text-align: center;
+}
+
+.card {
+  background-color: #2f3068;
+  border: 0.75px solid #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+  color: #fff;
+}
+
+h3 {
+  font-style: oblique;
+}
+
+p {
+  color: #fff;
+}
+
+.image {
+  height: 300px;
+}
+
+.card-contact {
+  max-width: 100%;
+}
