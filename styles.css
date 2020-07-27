@@ -1,10 +1,34 @@
 body {
   margin: 0;
 }
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
 
-.fwh-slide {
-  display: block;
-  height: 100vh;
+.nav-item {
+  margin-right: 10px;
+}
+
+.about-sect {
+  display: flex;
+  /*height: 100vh;*/
+  color: #fff;
+  background: #2f3068;
+  box-sizing: border-box;
+}
+
+.projects-sect {
+  display: flex;
+  /*height: 100vh;*/
+  color: #fff;
+  background: #2f3068;
+  box-sizing: border-box;
+}
+
+.contact-sect {
+  display: flex;
+  /*height: 100vh;*/
   color: #fff;
   background: #2f3068;
   box-sizing: border-box;
@@ -29,8 +53,18 @@ body {
   color: #fff;
 }
 
+.ellipsis {
+  text-overflow: auto;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
 h3 {
   font-style: oblique;
+}
+
+h5 {
+  font-size: 16px;
 }
 
 p {
@@ -42,5 +76,60 @@ p {
 }
 
 .card-contact {
-  max-width: 100%;
+  margin-top: 40px;
+}
+
+#box-A {
+  margin: 20px;
+}
+
+#box-B {
+  margin: 20px;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .logo-image {
+    height: 200px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .image {
+    height: 75px;
+  }
+
+  .project-sect {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #box-A {
+    margin: 5px;
+  }
+
+  #box-B {
+    margin: 5px;
+  }
 }

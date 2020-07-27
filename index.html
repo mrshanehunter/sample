@@ -14,20 +14,13 @@
   </head>
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark py-3">
+      <nav class="navbar fixed-top navbar-dark bg-dark">
         <a href="#" class="navbar-brand">That Guy From Marketing</a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        
 
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav ml-auto">
+        <div>
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
@@ -45,13 +38,13 @@
     <!--About Section -->
     <!-- Company Logo & brief summary of services performed-->
 
-    <section class="fwh-slide" id="about">
+    <section class="about-sect" id="about">
       <div class="container-fluid p-5">
           <div class="box mt-5">
             <img class="logo-image" src="ASSETS/TGFM-01.svg" alt="TGFM Logo" />
           </div>
           <div class="box mt-2">
-            <h2>That Guy From Marketing&#174 is a boutique branding & marketing agency.</h2>
+            <h2>That Guy From Marketing&#174 <br>is a boutique branding & marketing agency.</h2>
             <br>
             <h3>Clients range from international brands seeking to gain traction in the local market to local challenger brands looking to punch above their weight in their chosen industry.</h3p>
                            
@@ -63,7 +56,7 @@
     <!--Projects Section -->
     <!--Cards detailing client name, logo & short summary of briefed work-->
 
-    <section class="fwh-slide" id="projects">
+    <section class="projects-sect" id="projects">
       <div class="container-fluid p-5">
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-6">
@@ -73,7 +66,8 @@
                 <div class="d-flex justify-content-center">
                   <img class="image" src="ASSETS/ATT-01.svg" alt="ATT Logo">
                 </div>
-                <p class="card-text mt-3">Strategy, Brand Identity & Logo Design, Website</p>
+                <style>.ellipsis {text-overflow: auto;}</style>
+                <p class="overflow ellipsis card-text mt-3">Strategy, Brand Identity & Logo Design, Website</p>
               <!--  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="ATTmodal">Learn More</button> -->
               </div>
             </div>
@@ -99,8 +93,8 @@
                   </div>
                 -->            
           
-               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card mt-5">
+             <div class="col-lg-3 col-md-4 col-sm-6"> 
+               <div class="card mt-5">
                   <div class="card-body">
                     <h5 class="card-title">Belvoir Fruit Farms</h5>
                     <div class="d-flex justify-content-center">
@@ -110,17 +104,15 @@
                         alt="Belvoir Fruit Farms Logo"
                       >
                     </div>
-                    <p class="card-text mt-3">
+                    <style>.ellipsis {text-overflow: auto;}</style>
+                    <p class="overflow ellipsis card-text mt-3">
                       Strategy, Advertising Design, Media Buying, Campaign Management
-                    </p>
-                    <!--
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                     -->   
-                </div>
-                </div>
-              </div>      
+                    </p>      
+              </div>  
+              </div>
+            </div>    
         
-
+ 
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card mt-5">
               <div class="card-body">
@@ -132,7 +124,8 @@
                     alt="Reboot You Logo"
                   >
                 </div>
-                <p class="card-text mt-3">
+                <style>.ellipsis {text-overflow: auto;}</style>
+                 <p class="overflow ellipsis card-text mt-3">
                   Strategy, Brand Identity & Logo Design
                 </p> 
                 <!--
@@ -153,7 +146,8 @@
                     alt="Shepherd Advisory Services Logo"
                   >
                 </div>
-                <p class="card-text mt-3">
+                <style>.ellipis {text-overflow: auto;}</style>
+                <p class="overflow ellipsis card-text mt-3">
                   Strategy, Brand Identity & Logo Design
                 </p>
                 <!--
@@ -174,7 +168,8 @@
                     alt="Tshirts Online Logo"
                   >
                 </div>
-                <p class="card-text mt-3">
+                <style>.ellipsis {text-overflow: auto;}</style>
+                <p class="overflow ellipsis card-text mt-3">
                   Strategy, Brand Identity & Logo Design, Website, Social Media
                 </p>
                 <!--
@@ -193,11 +188,11 @@
     <!--Contact Section-->
     <!--Company contact details-->
 
-    <section class="fwh-slide" id="contact">
+    <section class="contact-sect" id="contact">
         <div class="container-fluid p-5">
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        
 
-            <div class="card-contact p-5">    
+            <div class="card-contact">    
                 <div class="card-body-contact">    
                     <h2 class="card-title">Contact:</h2><br>
                         <h5 class="card-text">Phone:</h5>
@@ -210,21 +205,22 @@
                         <h5 class="card-text"><a href="https://thatguyfrommarketing.com" target="-blank">www.thatguyfrommarketing.com</a></h5>
                         <div class="external-links">
                           <div class="row px-3">
+                            <div id="box-A">
                           <a href="https://www.linkedin.com/in/shane-hunter" target="_blank">
                           <img height="75px" src="ASSETS/linkedin-01.svg" alt="LinkedIn Logo">
                           </a>
-              
+                        </div>
+                        <div id="box-B"> 
                           <a href="https://www.github.com/mrshanehunter" target="_blank">
                             <img height="75px" margin-left="20px" src="ASSETS/github-01.svg" alt="Github Logo">
                             </a>
+                          </div>
                           </div>
                 </div>
              </div>
       
 
           </div>   
-
-        </div>
         </div>
     </section>
    
