@@ -12,7 +12,7 @@ body {
 
 .about-sect {
   display: flex;
-  /*height: 100vh;*/
+  height: 100vh;
   color: #fff;
   background: #2f3068;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
 
 .projects-sect {
   display: flex;
-  /*height: 100vh;*/
+  height: 100vh;
   color: #fff;
   background: #2f3068;
   box-sizing: border-box;
@@ -28,7 +28,7 @@ body {
 
 .contact-sect {
   display: flex;
-  /*height: 100vh;*/
+  height: 100vh;
   color: #fff;
   background: #2f3068;
   box-sizing: border-box;
@@ -72,7 +72,7 @@ p {
 }
 
 .image {
-  height: 150px;
+  height: 100px;
 }
 
 .card-contact {
@@ -118,6 +118,10 @@ p {
 
   .image {
     height: 75px;
+  }
+
+  .about-sect {
+    margin-top: 10px;
   }
 
   .project-sect {
