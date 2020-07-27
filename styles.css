@@ -72,7 +72,7 @@ p {
 }
 
 .image {
-  height: 100px;
+  height: 120px;
 }
 
 .card-contact {
@@ -87,7 +87,7 @@ p {
   margin: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .navbar {
     padding-top: 2px;
     padding-bottom: 2px;
