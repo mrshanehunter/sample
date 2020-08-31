@@ -10,12 +10,20 @@ body {
   margin-right: 10px;
 }
 
+#about {
+  min-height: 100vh;
+}
+
 .about-sect {
   display: flex;
   /*height: 100vh;*/
   color: #fff;
   background: #2f3068;
   box-sizing: border-box;
+}
+
+#projects {
+  min-height: 100vh;
 }
 
 .projects-sect {
@@ -26,6 +34,9 @@ body {
   box-sizing: border-box;
 }
 
+#contact {
+  min-height: 100vh;
+}
 .contact-sect {
   display: flex;
   /*height: 100vh;*/
@@ -35,7 +46,11 @@ body {
 }
 
 .logo-image {
-  height: 400px;
+  height: 200px;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 .box {
@@ -60,11 +75,12 @@ body {
 }
 
 h3 {
+  font-size: 16px;
   font-style: oblique;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 p {
@@ -87,7 +103,7 @@ p {
   margin: 20px;
 }
 
-@media (max-width: 450px) {
+@media only screen and (min-width: 375px) {
   .navbar {
     padding-top: 2px;
     padding-bottom: 2px;
@@ -97,11 +113,11 @@ p {
   }
 
   .logo-image {
-    height: 200px;
+    height: 300px;
   }
 
   h2 {
-    font-size: 20px;
+    margin-bottom: 30px;
   }
 
   h3 {
@@ -109,7 +125,59 @@ p {
   }
 
   h5 {
+    font-size: 14px;
+  }
+
+  p {
     font-size: 12px;
+  }
+
+  .image {
+    height: 75px;
+  }
+
+  .about-sect {
+    margin-top: 10px;
+  }
+
+  .project-sect {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #box-A {
+    margin: 5px;
+  }
+
+  #box-B {
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .logo-image {
+    height: 500px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 18px;
   }
 
   p {
